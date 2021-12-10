@@ -8,6 +8,7 @@ import main from './main';
 import projects from './projects';
 import skills from './skills';
 import education from './education';
+import modal from './modal';
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -20,5 +21,6 @@ export default createSchema({
     projects,
     skills,
     education,
+    modal,
   ]),
 });

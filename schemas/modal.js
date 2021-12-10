@@ -1,7 +1,18 @@
 export default {
-  name: 'main',
-  title: 'Main',
+  name: 'modal',
+  title: 'Modal',
   type: 'document',
+  initialValue: {
+    active: true,
+    // label_recent: {
+    //   en: 'recent project',
+    //   ru: 'недавний проект',
+    // },
+    // label: {
+    //   en: 'project name',
+    //   ru: 'имя проекта',
+    // },
+  },
   preview: {
     select: {
       title: 'title.ru',
@@ -9,46 +20,19 @@ export default {
   },
   fields: [
     {
-      name: 'meta_title',
-      title: 'МЕТА title - оглавление',
-      type: 'object',
-      required: true,
-      fields: [
-        {
-          name: 'en',
-          title: 'English',
-          type: 'string',
-        },
-        {
-          name: 'ru',
-          title: 'Русский',
-          type: 'string',
-        },
-      ],
-    },
-    {
-      name: 'meta_desc',
-      title: 'МЕТА description - описание',
-      type: 'object',
-      required: true,
-      fields: [
-        {
-          name: 'en',
-          title: 'English',
-          type: 'string',
-        },
-        {
-          name: 'ru',
-          title: 'Русский',
-          type: 'string',
-        },
-      ],
+      name: 'active',
+      title: 'Включить / отключить информацию',
+      type: 'boolean',
+      options: {
+        hotspot: true,
+      },
     },
     {
       name: 'title',
-      title: 'Заголовок сайта',
+      title: 'Заголовок модального окна',
       type: 'object',
       required: true,
+      hidden: ({ document }) => !document?.active,
       fields: [
         {
           name: 'en',
@@ -63,10 +47,30 @@ export default {
       ],
     },
     {
-      name: 'slogan',
-      title: 'Слоган',
+      name: 'subtitle',
+      title: 'Под заголовок модального окна',
       type: 'object',
       required: true,
+      hidden: ({ document }) => !document?.active,
+      fields: [
+        {
+          name: 'en',
+          title: 'English',
+          type: 'string',
+        },
+        {
+          name: 'ru',
+          title: 'Русский',
+          type: 'string',
+        },
+      ],
+    },
+    {
+      name: 'info',
+      title: 'Информация',
+      type: 'object',
+      required: true,
+      hidden: ({ document }) => !document?.active,
       fields: [
         {
           name: 'en',
@@ -83,39 +87,32 @@ export default {
       ],
     },
     {
-      name: 'story',
-      title: 'Моя история',
-      description:
-        'Краткое изложение своей истории о том как я стал программистом',
+      name: 'subsidy',
+      title: 'Сумма субсидий которую может получить наниматель',
+      type: 'string',
+      hidden: ({ document }) => !document?.active,
+    },
+    {
+      name: 'extra_info',
+      title: 'Дополнительная информация',
       type: 'object',
-      required: true,
+      hidden: ({ document }) => !document?.active,
       fields: [
         {
           name: 'en',
           title: 'English',
-          type: 'array',
-          of: [{ type: 'block' }],
+          type: 'string',
         },
         {
           name: 'ru',
           title: 'Русский',
-          type: 'array',
-          of: [{ type: 'block' }],
+          type: 'string',
         },
       ],
     },
     {
-      name: 'github_href',
-      title: 'Ссылка на GitHub',
-      type: 'url',
-      validation: Rule =>
-        Rule.uri({
-          scheme: ['https'],
-        }),
-    },
-    {
-      name: 'linkedin_href',
-      title: 'Ссылка на LinkedIn',
+      name: 'modal_href',
+      title: 'Внешняя ссылка',
       type: 'url',
       validation: Rule =>
         Rule.uri({
