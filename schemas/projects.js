@@ -133,6 +133,15 @@ export default {
         }),
     },
     {
+      name: 'figma_href',
+      title: 'Ссылка на Figma',
+      type: 'url',
+      validation: Rule =>
+        Rule.uri({
+          scheme: ['http', 'https'],
+        }),
+    },
+    {
       name: 'page_href',
       title: 'Ссылка на страницу проекта',
       type: 'url',
