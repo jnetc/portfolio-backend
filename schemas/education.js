@@ -1,6 +1,6 @@
 export default {
   name: 'education',
-  title: 'Education',
+  title: 'Landing Education',
   type: 'document',
   preview: {
     select: {

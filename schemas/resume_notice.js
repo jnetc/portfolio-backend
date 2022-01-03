@@ -1,6 +1,6 @@
 export default {
-  name: 'modal',
-  title: 'Modal',
+  name: 'resume_notice',
+  title: 'Resume уведомление',
   type: 'document',
   initialValue: {
     active: true,
@@ -29,7 +29,7 @@ export default {
     },
     {
       name: 'title',
-      title: 'Заголовок модального окна',
+      title: 'Заголовок уведомления',
       type: 'object',
       required: true,
       hidden: ({ document }) => !document?.active,
@@ -48,9 +48,8 @@ export default {
     },
     {
       name: 'subtitle',
-      title: 'Под заголовок модального окна',
+      title: 'Дополнительно для заголовка',
       type: 'object',
-      required: true,
       hidden: ({ document }) => !document?.active,
       fields: [
         {
@@ -111,7 +110,7 @@ export default {
       ],
     },
     {
-      name: 'modal_href',
+      name: 'external_href',
       title: 'Внешняя ссылка',
       type: 'url',
       validation: Rule =>

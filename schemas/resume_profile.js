@@ -1,16 +1,16 @@
 export default {
-  name: 'main',
-  title: 'Landing Main',
+  name: 'resume_profile',
+  title: 'Resume Profile',
   type: 'document',
   preview: {
     select: {
-      title: 'title.ru',
+      title: 'name.ru',
     },
   },
   fields: [
     {
-      name: 'meta_title',
-      title: 'МЕТА title - оглавление',
+      name: 'name',
+      title: 'Имя',
       type: 'object',
       required: true,
       fields: [
@@ -27,8 +27,8 @@ export default {
       ],
     },
     {
-      name: 'meta_desc',
-      title: 'МЕТА description - описание',
+      name: 'professional',
+      title: 'Специализация',
       type: 'object',
       required: true,
       fields: [
@@ -45,26 +45,8 @@ export default {
       ],
     },
     {
-      name: 'title',
-      title: 'Заголовок сайта',
-      type: 'object',
-      required: true,
-      fields: [
-        {
-          name: 'en',
-          title: 'English',
-          type: 'string',
-        },
-        {
-          name: 'ru',
-          title: 'Русский',
-          type: 'string',
-        },
-      ],
-    },
-    {
-      name: 'slogan',
-      title: 'Слоган',
+      name: 'summary',
+      title: 'Кратко обо мне',
       type: 'object',
       required: true,
       fields: [
@@ -83,43 +65,48 @@ export default {
       ],
     },
     {
-      name: 'story',
-      title: 'Моя история',
-      description:
-        'Краткое изложение своей истории о том как я стал программистом',
+      name: 'location',
+      title: 'Место нахождения',
       type: 'object',
       required: true,
       fields: [
         {
           name: 'en',
           title: 'English',
-          type: 'array',
-          of: [{ type: 'block' }],
+          type: 'string',
         },
         {
           name: 'ru',
           title: 'Русский',
-          type: 'array',
-          of: [{ type: 'block' }],
+          type: 'string',
         },
       ],
     },
     {
       name: 'github_href',
-      title: 'Ссылка на GitHub',
+      title: 'ссылка на github профиль',
       type: 'url',
       validation: Rule =>
         Rule.uri({
-          scheme: ['https'],
+          scheme: ['http', 'https'],
         }),
     },
     {
-      name: 'linkedin_href',
-      title: 'Ссылка на LinkedIn',
+      name: 'stackoverflow_href',
+      title: 'ссылка на stackoverflow профиль',
       type: 'url',
       validation: Rule =>
         Rule.uri({
-          scheme: ['https'],
+          scheme: ['http', 'https'],
+        }),
+    },
+    {
+      name: 'email',
+      title: 'электронная почта',
+      type: 'url',
+      validation: Rule =>
+        Rule.uri({
+          scheme: ['mailto'],
         }),
     },
   ],

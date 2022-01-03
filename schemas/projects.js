@@ -1,6 +1,6 @@
 export default {
   name: 'projects',
-  title: 'Projects',
+  title: 'Landing Projects',
   type: 'document',
   initialValue: {
     recent: true,

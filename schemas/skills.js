@@ -1,6 +1,6 @@
 export default {
   name: 'skills',
-  title: 'Skills',
+  title: 'Landing Skills',
   type: 'document',
   preview: {
     select: {
