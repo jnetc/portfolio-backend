@@ -4,14 +4,6 @@ export default {
   type: 'document',
   initialValue: {
     active: true,
-    // label_recent: {
-    //   en: 'recent project',
-    //   ru: 'недавний проект',
-    // },
-    // label: {
-    //   en: 'project name',
-    //   ru: 'имя проекта',
-    // },
   },
   preview: {
     select: {
@@ -32,7 +24,6 @@ export default {
       title: 'Заголовок уведомления',
       type: 'object',
       required: true,
-      hidden: ({ document }) => !document?.active,
       fields: [
         {
           name: 'en',
@@ -50,7 +41,6 @@ export default {
       name: 'subtitle',
       title: 'Дополнительно для заголовка',
       type: 'object',
-      hidden: ({ document }) => !document?.active,
       fields: [
         {
           name: 'en',
@@ -69,7 +59,6 @@ export default {
       title: 'Информация',
       type: 'object',
       required: true,
-      hidden: ({ document }) => !document?.active,
       fields: [
         {
           name: 'en',
@@ -89,13 +78,11 @@ export default {
       name: 'subsidy',
       title: 'Сумма субсидий которую может получить наниматель',
       type: 'string',
-      hidden: ({ document }) => !document?.active,
     },
     {
       name: 'extra_info',
       title: 'Дополнительная информация',
       type: 'object',
-      hidden: ({ document }) => !document?.active,
       fields: [
         {
           name: 'en',

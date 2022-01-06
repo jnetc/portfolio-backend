@@ -1035,9 +1035,9 @@
     fastq "^1.6.0"
 
 "@popperjs/core@^2.10.2", "@popperjs/core@^2.5.4":
-  version "2.11.0"
-  resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.0.tgz#6734f8ebc106a0860dff7f92bf90df193f0935d7"
-  integrity sha512-zrsUxjLOKAzdewIDRWy9nsV1GQsKBCWaGwsZQlCgr6/q+vjyZhFgqedLfFBuI9anTPEUT4APq9Mu0SZBTzIcGQ==
+  version "2.11.2"
+  resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.2.tgz#830beaec4b4091a9e9398ac50f865ddea52186b9"
+  integrity sha512-92FRmppjjqz29VMJ2dn+xdyXZBrMlE42AV6Kq6BwjWV7CNUW1hs2FtxSNLQE+gJhaZ6AAmYuO9y8dshhcBl7vA==
 
 "@reach/auto-id@^0.13.2":
   version "0.13.2"
@@ -1082,10 +1082,10 @@
   resolved "https://registry.npmjs.org/@sanity/asset-utils/-/asset-utils-1.2.3.tgz#a90c7895c6506405d64c2363db131923ba1fa6ef"
   integrity sha512-0eOR0D6zcqd6nEmAGIJ93ibRGO6ocYzQ5aEuyYvngHy5MDDjUfC821UnF/YPIcxiMXg2DLDjWd4EPt9F8frKNQ==
 
-"@sanity/base@2.23.2", "@sanity/base@^2.23.2":
-  version "2.23.2"
-  resolved "https://registry.npmjs.org/@sanity/base/-/base-2.23.2.tgz#61410c8cc20727206754497ee68c08229ebeffc9"
-  integrity sha512-MG70zfhivF22A7yv7u5OS0m7WbP2Dz3G8S4lLKlxZFiDqBdGPd3jzoV7/W8xXsyZpc9YKXQWE7C8HMQ34+eTuA==
+"@sanity/base@2.23.3", "@sanity/base@^2.23.3":
+  version "2.23.3"
+  resolved "https://registry.npmjs.org/@sanity/base/-/base-2.23.3.tgz#ac754887531cc84b51baccff88fe6e5c5080a6db"
+  integrity sha512-A+3uQjBckzAxwpBwjt39oWwR1+08fpeb+NuzHQvRtvNHR+Ym8uxBQC15JAeyGfpRtzP4peedLLbv2wRAs0vpgQ==
   dependencies:
     "@juggle/resize-observer" "^3.3.0"
     "@popperjs/core" "^2.5.4"
@@ -1159,10 +1159,10 @@
     get-random-values "^1.2.2"
     lodash "^4.17.15"
 
-"@sanity/cli@^2.23.2":
-  version "2.23.2"
-  resolved "https://registry.npmjs.org/@sanity/cli/-/cli-2.23.2.tgz#d8f532f51f1d27cc2f426706717b6ab58774b17e"
-  integrity sha512-C9JS21PKG3lq5HGL8n5Bg986yV8K0AN22TNztUx3Hd4O/luxHFEabJWXfb9YX0BvCDY4qe4WE4YFJwKWuV3cDA==
+"@sanity/cli@^2.23.3":
+  version "2.23.3"
+  resolved "https://registry.npmjs.org/@sanity/cli/-/cli-2.23.3.tgz#9041fc50018994d9fbe7947720473412d1560f7e"
+  integrity sha512-5ha/HBVs5uG55oWse47HMQhvOlcfQuqS/zyRKJ22O3TVRN+kxRuBgbVdkehuHTwPdRzaj0NXFlUZrE/DmJ2liA==
 
 "@sanity/client@2.23.2":
   version "2.23.2"
@@ -1261,13 +1261,13 @@
     "@sanity/generate-help-url" "2.18.0"
     lodash "^4.17.15"
 
-"@sanity/default-layout@^2.23.2":
-  version "2.23.2"
-  resolved "https://registry.npmjs.org/@sanity/default-layout/-/default-layout-2.23.2.tgz#676df77bee3225afa2c6e5c30b618212c96cc81b"
-  integrity sha512-ml2tNhiP7ruQFnKjXxoerzX+AgBvPcUeN7OalG8mz+KnwDJsBAP+BJ5NcMzjm9igCtm+PzmSDMBQCpJoo1bNRg==
+"@sanity/default-layout@^2.23.3":
+  version "2.23.3"
+  resolved "https://registry.npmjs.org/@sanity/default-layout/-/default-layout-2.23.3.tgz#97e3fd57a7fbdf41636055a380441c69283b9312"
+  integrity sha512-+2xAWoLmnJNvD+fIhounPNfY+yHAG1vqMD9UbM0RIIiVPCH8dHwIic5k4Z3+UiqFBtKCqePtahpWUPfggAU7DA==
   dependencies:
     "@reach/auto-id" "^0.13.2"
-    "@sanity/base" "2.23.2"
+    "@sanity/base" "2.23.3"
     "@sanity/client" "2.23.2"
     "@sanity/generate-help-url" "2.18.0"
     "@sanity/icons" "^1.2.1"
@@ -1288,20 +1288,20 @@
     prop-types "^15.6.0"
     rxjs "^6.5.3"
 
-"@sanity/desk-tool@^2.23.2":
-  version "2.23.2"
-  resolved "https://registry.npmjs.org/@sanity/desk-tool/-/desk-tool-2.23.2.tgz#6f07d039345201a8bd3a0c3301bb0a73f71227c1"
-  integrity sha512-4EMUBRJTQJAGHwEvkc2GYLpAL7xWY23jyEilOi0y5h2ig4CvjkmbCQwTNp7MeN741VS9OrJJ0zICffXLMW8lRw==
+"@sanity/desk-tool@^2.23.3":
+  version "2.23.3"
+  resolved "https://registry.npmjs.org/@sanity/desk-tool/-/desk-tool-2.23.3.tgz#e8fdafe70798ee8a5f2cbe565428bc88fc0b8525"
+  integrity sha512-m3drNKD3ANBWkdcqVC4XqmqxI2Z7kJr596uFEu5t2uZrE+tfYVa5BfYTLxiUXB3cKIU3GcD8Np0EP/R9TvEokA==
   dependencies:
     "@reach/auto-id" "^0.13.2"
     "@sanity/client" "2.23.2"
     "@sanity/data-aspects" "2.18.0"
     "@sanity/diff" "2.20.0"
-    "@sanity/field" "2.23.2"
-    "@sanity/form-builder" "2.23.2"
+    "@sanity/field" "2.23.3"
+    "@sanity/form-builder" "2.23.3"
     "@sanity/generate-help-url" "2.18.0"
     "@sanity/icons" "^1.2.1"
-    "@sanity/react-hooks" "2.23.2"
+    "@sanity/react-hooks" "2.23.3"
     "@sanity/structure" "2.23.2"
     "@sanity/types" "2.23.2"
     "@sanity/ui" "^0.36.17"
@@ -1349,19 +1349,19 @@
     p-queue "^2.3.0"
     split2 "^3.2.2"
 
-"@sanity/field@2.23.2":
-  version "2.23.2"
-  resolved "https://registry.npmjs.org/@sanity/field/-/field-2.23.2.tgz#b2c1ffd32ae20367b42c4aa636f471c60da536a7"
-  integrity sha512-nRCmNlLimovRAGP9KiE2UYx5rwsUd6o/XhYzKutSwE2NoDKKbkkDbCankM5C91hBCL3wm49486oIeUbQarUJ3w==
+"@sanity/field@2.23.3":
+  version "2.23.3"
+  resolved "https://registry.npmjs.org/@sanity/field/-/field-2.23.3.tgz#413c0fa35d1878ace52b6a7ebc9bade825cfe906"
+  integrity sha512-SvmaAzfy4w4XFqss8/lvu7zt4ci3DLF3A8zKyTyCKlVUJxBpyMH8Pzq17tn+BLKfliHY0lHWi0p+UXTPP2u1DQ==
   dependencies:
     "@sanity/asset-utils" "^1.2.0"
-    "@sanity/base" "2.23.2"
+    "@sanity/base" "2.23.3"
     "@sanity/client" "2.23.2"
     "@sanity/color" "^2.1.5"
     "@sanity/diff" "2.20.0"
     "@sanity/icons" "^1.2.1"
     "@sanity/image-url" "^1.0.1"
-    "@sanity/react-hooks" "2.23.2"
+    "@sanity/react-hooks" "2.23.3"
     "@sanity/types" "2.23.2"
     "@sanity/ui" "^0.36.17"
     "@sanity/util" "2.23.2"
@@ -1369,19 +1369,19 @@
     lodash "^4.17.15"
     sanity-diff-patch "^1.0.9"
 
-"@sanity/form-builder@2.23.2":
-  version "2.23.2"
-  resolved "https://registry.npmjs.org/@sanity/form-builder/-/form-builder-2.23.2.tgz#97b10fe19465c37a34af4a861d4f2b56aabee558"
-  integrity sha512-ci3mVw6AKjqzEsqBf5AWuMFCA1Mn9nPhv1fSEbeB7f+nyuo6SLy6HxSiz0coNv3/Jeu9C9pIbHTveD6mHhE+9w==
+"@sanity/form-builder@2.23.3":
+  version "2.23.3"
+  resolved "https://registry.npmjs.org/@sanity/form-builder/-/form-builder-2.23.3.tgz#2e70cad07bfa49cf016ea9bfd00063fc44522a58"
+  integrity sha512-Ks9rBHSw76qPiRsAYH0ifzGAX+Lgog/zU66e5aDBskJul7X3EGopQkbXNvvVgtMU/03qvyZ/vmh5/tOtj83emg==
   dependencies:
     "@reach/auto-id" "^0.13.2"
-    "@sanity/base" "2.23.2"
+    "@sanity/base" "2.23.3"
     "@sanity/block-tools" "2.23.0"
     "@sanity/client" "2.23.2"
     "@sanity/color" "^2.1.5"
     "@sanity/generate-help-url" "2.18.0"
     "@sanity/icons" "^1.2.1"
-    "@sanity/imagetool" "2.22.3"
+    "@sanity/imagetool" "2.23.3"
     "@sanity/initial-value-templates" "2.23.2"
     "@sanity/mutator" "2.21.0"
     "@sanity/portable-text-editor" "2.23.2"
@@ -1416,19 +1416,19 @@
   integrity sha512-If8Qkw32LWPes16UzqwUsTLgfxF5d4ACdUvCLMl6grJc/5G8LKPAGCQUuA/d1F4W16yCJVV7Zv31HDRDXJSJkg==
 
 "@sanity/icons@^1.2.1", "@sanity/icons@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/@sanity/icons/-/icons-1.2.2.tgz#6fe5cb74cf75757aee864ea13c2740329046b615"
-  integrity sha512-lhA6f/K5r8ajL8PrrCftJe6ry/6VGSD1JZSwZiEodVZgkuZOZLs1mU8E0LXUXEyj8QRlvKpifv2xRbY7rWimQg==
+  version "1.2.3"
+  resolved "https://registry.npmjs.org/@sanity/icons/-/icons-1.2.3.tgz#58b1f3c0d2a8bb13731c5d91ca96461c29bc5cd9"
+  integrity sha512-yp/o9Kd/4gEncihLrly/PNXo77Z6+xHkEZP4K2/C+PJ7/dXR7Nyy4Lj729tR/0SQKA/Rc8WEapGQCPmWVBvHOQ==
 
 "@sanity/image-url@^1.0.1":
   version "1.0.1"
   resolved "https://registry.npmjs.org/@sanity/image-url/-/image-url-1.0.1.tgz#960d649b2f4396da0adb31cf94503c929495cea0"
   integrity sha512-AdKQ3zMk7WdoNwoJPrAvQhW+kUtBldBX0nHtnGy+rwmgsCQ0rAXasrgH43Fhmsp/yB6piiq+F2d5qEuBFsdQVg==
 
-"@sanity/imagetool@2.22.3":
-  version "2.22.3"
-  resolved "https://registry.npmjs.org/@sanity/imagetool/-/imagetool-2.22.3.tgz#3fb1a0bed87842c06e8e3dec19c84990e8c531e6"
-  integrity sha512-8GgCHCoOsuvZaUmN0bpeQNjinjjIZ5MzGQmFW+OP3XGXsRn57PjLx3XiMAZVFis7o98OYfJZv9h7BmX/xCdSgw==
+"@sanity/imagetool@2.23.3":
+  version "2.23.3"
+  resolved "https://registry.npmjs.org/@sanity/imagetool/-/imagetool-2.23.3.tgz#4e18009406cc8461e620a9aac7125553f5fd81f3"
+  integrity sha512-BwXEC1PpiyqYF2r80b1MkaOAzeGJhQF2JfCLmT3troY7RinJM8BWFc/YCswvjNs/NGpvvn2cYNX1HK/iaKXtLw==
   dependencies:
     debug "^3.2.7"
     lodash "^4.17.15"
@@ -1519,10 +1519,10 @@
     lodash "^4.17.15"
     slate "^0.58.4"
 
-"@sanity/react-hooks@2.23.2":
-  version "2.23.2"
-  resolved "https://registry.npmjs.org/@sanity/react-hooks/-/react-hooks-2.23.2.tgz#9515b612ce37083a2900ec17a65896847e36a37e"
-  integrity sha512-ZLWNSpmv2bcyZUrAHu8mZWqGXmGpMKellKFqjc127LDQ9U2F3SijEzCFvBxYWM2k/KME57jGW6O/kDJIYYVmSA==
+"@sanity/react-hooks@2.23.3":
+  version "2.23.3"
+  resolved "https://registry.npmjs.org/@sanity/react-hooks/-/react-hooks-2.23.3.tgz#a0e97ff05cf0e3061e9b3fe763353089d1c3e478"
+  integrity sha512-Vd352E8rkeD0IDXpqCEB/JjFRrmcOpkQnrYXK3+9Iqf90S4c46gN24nNIzC20ZjjyVLr6ArK74O9xZnf8JW/hg==
   dependencies:
     "@sanity/types" "2.23.2"
     react-rx "^1.0.0-beta.6"
@@ -1696,10 +1696,10 @@
     date-fns "^2.16.1"
     lodash "^4.17.15"
 
-"@sanity/vision@^2.23.2":
-  version "2.23.2"
-  resolved "https://registry.npmjs.org/@sanity/vision/-/vision-2.23.2.tgz#119731f43c9b4aa6e36f6b64c88d5240070db5f1"
-  integrity sha512-Z7gSIqsowJU9vq/q6c/m6B/er9MTBgnrZ5K8VP1xu/E0u+JT/WeW4xTnMg+9MoocI4uoVTJg/rn5J0UtM2Wf8A==
+"@sanity/vision@^2.23.3":
+  version "2.23.3"
+  resolved "https://registry.npmjs.org/@sanity/vision/-/vision-2.23.3.tgz#c8deb48bb4118ae61b57b705d27ef3b3d6683f11"
+  integrity sha512-e4R+6tyF8qpqoxHsEeaxEHY60G+oLMUDc1Bazg5LlmR/BscYUX36XGoCaK9W+QC47UtjiMWvjKACgf8FdGRTrQ==
   dependencies:
     "@sanity/icons" "^1.2.1"
     "@sanity/ui" "^0.36.17"
@@ -1808,9 +1808,9 @@
   integrity sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==
 
 "@types/node@*":
-  version "17.0.7"
-  resolved "https://registry.npmjs.org/@types/node/-/node-17.0.7.tgz#4a53d8332bb65a45470a2f9e2611f1ced637a5cb"
-  integrity sha512-1QUk+WAUD4t8iR+Oj+UgI8oJa6yyxaB8a8pHaC8uqM6RrS1qbL7bf3Pwl5rHv0psm2CuDErgho6v5N+G+5fwtQ==
+  version "17.0.8"
+  resolved "https://registry.npmjs.org/@types/node/-/node-17.0.8.tgz#50d680c8a8a78fe30abe6906453b21ad8ab0ad7b"
+  integrity sha512-YofkM6fGv4gDJq78g4j0mMuGMkZVxZDgtU0JRdx6FgiJDG+0fY0GKVolOV8WqVmEhLCXkQRjwDdKyPxJp/uucg==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -1847,9 +1847,9 @@
   integrity sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==
 
 "@types/uuid@^8.0.0":
-  version "8.3.3"
-  resolved "https://registry.npmjs.org/@types/uuid/-/uuid-8.3.3.tgz#c6a60686d953dbd1b1d45e66f4ecdbd5d471b4d0"
-  integrity sha512-0LbEEx1zxrYB3pgpd1M5lEhLcXjKJnYghvhTRgaBeUivLHMDM1TzF3IJ6hXU2+8uA4Xz+5BA63mtZo5DjVT8iA==
+  version "8.3.4"
+  resolved "https://registry.npmjs.org/@types/uuid/-/uuid-8.3.4.tgz#bd86a43617df0594787d38b735f55c805becf1bc"
+  integrity sha512-c/I8ZRb51j+pYGAu5CrFMRxqZ2ke4y2grEBO5AUjgSkSk+qT2Ea+OdWElz/OiMf5MNpn2b17kuVBwZLQJXzihw==
 
 "@types/warning@^3.0.0":
   version "3.0.0"
@@ -2688,9 +2688,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805, caniuse-lite@^1.0.30001286:
-  version "1.0.30001295"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001295.tgz#68a60f8f0664f342b2835c5d8898b4faea7b3d51"
-  integrity sha512-lSP16vcyC0FEy0R4ECc9duSPoKoZy+YkpGkue9G4D81OfPnliopaZrU10+qtPdT8PbGXad/PNx43TIQrOmJZSQ==
+  version "1.0.30001296"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001296.tgz#d99f0f3bee66544800b93d261c4be55a35f1cec8"
+  integrity sha512-WfrtPEoNSoeATDlf4y3QvkwiELl9GyPLISV5GejTbbQRtQx4LhsXmc9IQ6XCL2d7UxCyEzToEZNMeqR79OUw8Q==
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -3728,9 +3728,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.30, electron-to-chromium@^1.4.17:
-  version "1.4.31"
-  resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.31.tgz#8d5ccc3f8253cd142b07afaa84f200fd33a7f2a6"
-  integrity sha512-t3XVQtk+Frkv6aTD4RRk0OqosU+VLe1dQFW83MDer78ZD6a52frgXuYOIsLYTQiH2Lm+JB2OKYcn7zrX+YGAiQ==
+  version "1.4.36"
+  resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.36.tgz#446c6184dbe5baeb5eae9a875490831e4bc5319a"
+  integrity sha512-MbLlbF39vKrXWlFEFpCgDHwdlz4O3LmHM5W4tiLRHjSmEUXjJjz8sZkMgWgvYxlZw3N1iDTmCEtOkkESb5TMCg==
 
 element-resize-detector@^1.1.14:
   version "1.2.4"
@@ -4658,9 +4658,9 @@ globby@^10.0.0:
     slash "^3.0.0"
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
-  version "4.2.8"
-  resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
-  integrity sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==
+  version "4.2.9"
+  resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.9.tgz#041b05df45755e587a24942279b9d113146e1c96"
+  integrity sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==
 
 groq-js@^0.2.0:
   version "0.2.0"
@@ -5138,10 +5138,10 @@ is-color-stop@^1.0.0:
     rgb-regex "^1.0.1"
     rgba-regex "^1.0.0"
 
-is-core-module@^2.2.0:
-  version "2.8.0"
-  resolved "https://registry.npmjs.org/is-core-module/-/is-core-module-2.8.0.tgz#0321336c3d0925e497fd97f5d95cb114a5ccd548"
-  integrity sha512-vd15qHsaqrRL7dtH6QNuy0ndJmRDrS9HAM1CAiSifNUFv4x1a0CCVsj18hJ1mShxIG6T2i1sO78MkP56r0nYRw==
+is-core-module@^2.8.0:
+  version "2.8.1"
+  resolved "https://registry.npmjs.org/is-core-module/-/is-core-module-2.8.1.tgz#f59fdfca701d5879d0a6b100a40aa1560ce27211"
+  integrity sha512-SdNCUs284hr40hFTFP6l0IfZ/RSrMXF3qgoRHd3/79unUTvrFO/JoXwkGm+5J/Oe3E/b5GsnG330uUNgRpu1PA==
   dependencies:
     has "^1.0.3"
 
@@ -6674,7 +6674,7 @@ path-key@^3.0.0, path-key@^3.1.0:
   resolved "https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz#581f6ade658cbba65a0d3380de7753295054f375"
   integrity sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==
 
-path-parse@^1.0.6:
+path-parse@^1.0.7:
   version "1.0.7"
   resolved "https://registry.npmjs.org/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
   integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
@@ -7550,9 +7550,9 @@ prompts@~2.4.2:
     sisteransi "^1.0.5"
 
 prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.7, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7, prop-types@^15.7.2:
-  version "15.8.0"
-  resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.0.tgz#d237e624c45a9846e469f5f31117f970017ff588"
-  integrity sha512-fDGekdaHh65eI3lMi5OnErU6a8Ighg2KjcjQxO7m8VHyWjcPyj5kiOgV1LQDOOOgVy3+5FgjXvdSSX7B8/5/4g==
+  version "15.8.1"
+  resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
+  integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
   dependencies:
     loose-envify "^1.4.0"
     object-assign "^4.1.1"
@@ -8236,12 +8236,13 @@ resolve-url@^0.2.1:
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
 resolve@^1.1.7, resolve@^1.10.0, resolve@^1.14.2, resolve@^1.3.3:
-  version "1.20.0"
-  resolved "https://registry.npmjs.org/resolve/-/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
-  integrity sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==
+  version "1.21.0"
+  resolved "https://registry.npmjs.org/resolve/-/resolve-1.21.0.tgz#b51adc97f3472e6a5cf4444d34bc9d6b9037591f"
+  integrity sha512-3wCbTpk5WJlyE4mSOtDLhqQmGFi0/TD9VPwmiolnk8U0wRgMEktqCXd3vy5buTO3tljvalNvKrjHEfrd2WpEKA==
   dependencies:
-    is-core-module "^2.2.0"
-    path-parse "^1.0.6"
+    is-core-module "^2.8.0"
+    path-parse "^1.0.7"
+    supports-preserve-symlinks-flag "^1.0.0"
 
 ret@~0.1.10:
   version "0.1.15"
@@ -8987,6 +8988,11 @@ supports-color@^7.1.0:
   integrity sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
   dependencies:
     has-flag "^4.0.0"
+
+supports-preserve-symlinks-flag@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
+  integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
 svgo@^1.0.0:
   version "1.3.2"
