@@ -75,13 +75,8 @@ export default {
       ],
     },
     {
-      name: 'subsidy',
-      title: 'Сумма субсидий которую может получить наниматель',
-      type: 'string',
-    },
-    {
-      name: 'extra_info',
-      title: 'Дополнительная информация',
+      name: 'button_name',
+      title: 'Наименование кнопки',
       type: 'object',
       fields: [
         {
@@ -102,7 +97,7 @@ export default {
       type: 'url',
       validation: Rule =>
         Rule.uri({
-          scheme: ['https'],
+          scheme: ['https', 'http'],
         }),
     },
   ],
