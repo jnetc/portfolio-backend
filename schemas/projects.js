@@ -81,10 +81,24 @@ export default {
     {
       name: 'project_completed',
       title: 'Дата завершения проекта. Пример (Aug 9, 1995)',
-      description:
-        'Jan, Feb, Mar, Apr, May, June, July, Aug, Sept, Oct, Nov, Dec',
-      type: 'string',
+      type: 'object',
       required: true,
+      fields: [
+        {
+          name: 'en',
+          title: 'English',
+          description:
+            'Jan, Feb, Mar, Apr, May, June, July, Aug, Sept, Oct, Nov, Dec',
+          type: 'string',
+        },
+        {
+          name: 'ru',
+          description:
+            'янв, фев, мар, апр, мая, июня, июля, авг, сен, окт, ноя, дек',
+          title: 'Русский',
+          type: 'string',
+        },
+      ],
     },
     {
       name: 'project_title',
