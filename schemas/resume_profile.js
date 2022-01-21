@@ -101,6 +101,15 @@ export default {
         }),
     },
     {
+      name: 'linkedin_href',
+      title: 'Ссылка на LinkedIn',
+      type: 'url',
+      validation: Rule =>
+        Rule.uri({
+          scheme: ['https'],
+        }),
+    },
+    {
       name: 'email',
       title: 'электронная почта',
       type: 'url',

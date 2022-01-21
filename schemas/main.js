@@ -104,23 +104,5 @@ export default {
         },
       ],
     },
-    {
-      name: 'github_href',
-      title: 'Ссылка на GitHub',
-      type: 'url',
-      validation: Rule =>
-        Rule.uri({
-          scheme: ['https'],
-        }),
-    },
-    {
-      name: 'linkedin_href',
-      title: 'Ссылка на LinkedIn',
-      type: 'url',
-      validation: Rule =>
-        Rule.uri({
-          scheme: ['https'],
-        }),
-    },
   ],
 };
