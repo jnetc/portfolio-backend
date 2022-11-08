@@ -24,6 +24,11 @@ export default {
           title: 'Русский',
           type: 'string',
         },
+        {
+          name: 'fi',
+          title: 'Suomi',
+          type: 'string',
+        },
       ],
     },
     {
@@ -42,6 +47,11 @@ export default {
           title: 'Русский',
           type: 'string',
         },
+        {
+          name: 'fi',
+          title: 'Suomi',
+          type: 'string',
+        },
       ],
     },
     {
@@ -58,6 +68,11 @@ export default {
         {
           name: 'ru',
           title: 'Русский',
+          type: 'string',
+        },
+        {
+          name: 'fi',
+          title: 'Suomi',
           type: 'string',
         },
       ],
@@ -80,13 +95,18 @@ export default {
           type: 'array',
           of: [{ type: 'block' }],
         },
+        {
+          name: 'fi',
+          title: 'Suomi',
+          type: 'array',
+          of: [{ type: 'block' }],
+        },
       ],
     },
     {
       name: 'story',
       title: 'Моя история',
-      description:
-        'Краткое изложение своей истории о том как я стал программистом',
+      description: 'Краткое изложение своей истории о том как я стал программистом',
       type: 'object',
       required: true,
       fields: [
@@ -99,6 +119,12 @@ export default {
         {
           name: 'ru',
           title: 'Русский',
+          type: 'array',
+          of: [{ type: 'block' }],
+        },
+        {
+          name: 'fi',
+          title: 'Suomi',
           type: 'array',
           of: [{ type: 'block' }],
         },

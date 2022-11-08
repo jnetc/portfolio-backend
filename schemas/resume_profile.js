@@ -24,6 +24,11 @@ export default {
           title: 'Русский',
           type: 'string',
         },
+        {
+          name: 'fi',
+          title: 'Suomi',
+          type: 'string',
+        },
       ],
     },
     {
@@ -40,6 +45,11 @@ export default {
         {
           name: 'ru',
           title: 'Русский',
+          type: 'string',
+        },
+        {
+          name: 'fi',
+          title: 'Suomi',
           type: 'string',
         },
       ],
@@ -62,6 +72,12 @@ export default {
           type: 'array',
           of: [{ type: 'block' }],
         },
+        {
+          name: 'fi',
+          title: 'Suomi',
+          type: 'array',
+          of: [{ type: 'block' }],
+        },
       ],
     },
     {
@@ -78,6 +94,11 @@ export default {
         {
           name: 'ru',
           title: 'Русский',
+          type: 'string',
+        },
+        {
+          name: 'fi',
+          title: 'Suomi',
           type: 'string',
         },
       ],

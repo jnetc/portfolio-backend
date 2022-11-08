@@ -6,8 +6,7 @@ export default {
     {
       name: 'description',
       title: 'Описание, перечень навыков',
-      description:
-        'Описание блока или перечень разных навыков, умений, увлечений',
+      description: 'Описание блока или перечень разных навыков, умений, увлечений',
       type: 'object',
       fields: [
         {
@@ -18,6 +17,11 @@ export default {
         {
           name: 'ru',
           title: 'Русский',
+          type: 'string',
+        },
+        {
+          name: 'fi',
+          title: 'Suomi',
           type: 'string',
         },
       ],

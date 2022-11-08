@@ -7,10 +7,12 @@ export default {
     label_recent: {
       en: 'recent project',
       ru: 'недавний проект',
+      fi: 'viimeaikainen projekti',
     },
     label: {
       en: 'project name',
       ru: 'имя проекта',
+      fi: 'projekti nimi',
     },
   },
   preview: {
@@ -55,6 +57,12 @@ export default {
           type: 'string',
           required: true,
         },
+        {
+          name: 'fi',
+          title: 'Suomi',
+          type: 'string',
+          required: true,
+        },
       ],
     },
     {
@@ -73,6 +81,12 @@ export default {
         {
           name: 'ru',
           title: 'Русский',
+          type: 'string',
+          required: true,
+        },
+        {
+          name: 'fi',
+          title: 'Suomi',
           type: 'string',
           required: true,
         },
@@ -108,6 +122,13 @@ export default {
         {
           name: 'ru',
           title: 'Русский',
+          type: 'array',
+          required: true,
+          of: [{ type: 'block' }],
+        },
+        {
+          name: 'fi',
+          title: 'Suomi',
           type: 'array',
           required: true,
           of: [{ type: 'block' }],
