@@ -2,6 +2,7 @@ export default {
   name: 'resume_notice',
   title: 'Resume уведомление',
   type: 'document',
+  __experimental_actions: ['update', 'publish'],
   initialValue: {
     active: true,
   },

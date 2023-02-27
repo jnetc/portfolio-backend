@@ -2,6 +2,7 @@ export default {
   name: 'skills',
   title: 'Landing Skills',
   type: 'document',
+  __experimental_actions: ['update', 'publish'],
   preview: {
     select: {
       title: 'skill_name.en',

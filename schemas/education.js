@@ -2,6 +2,7 @@ export default {
   name: 'education',
   title: 'Landing Education',
   type: 'document',
+  __experimental_actions: ['update', 'publish'],
   preview: {
     select: {
       title: 'course_name',
@@ -11,8 +12,7 @@ export default {
     {
       name: 'course_completed',
       title: 'Дата завершения проекта. Пример (Aug 9, 1995)',
-      description:
-        'Jan, Feb, Mar, Apr, May, June, July, Aug, Sept, Oct, Nov, Dec',
+      description: 'Jan, Feb, Mar, Apr, May, June, July, Aug, Sept, Oct, Nov, Dec',
       type: 'string',
     },
     {

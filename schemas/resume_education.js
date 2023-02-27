@@ -2,6 +2,7 @@ export default {
   name: 'resume_education',
   title: 'Resume Education',
   type: 'document',
+  __experimental_actions: ['update', 'publish'],
   fields: [
     {
       name: 'title',

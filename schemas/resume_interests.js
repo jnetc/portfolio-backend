@@ -2,6 +2,7 @@ export default {
   name: 'resume_interests',
   title: 'Resume Interests',
   type: 'document',
+  __experimental_actions: ['update', 'publish'],
   fields: [
     {
       name: 'description',

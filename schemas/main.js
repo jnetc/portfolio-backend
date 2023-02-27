@@ -2,6 +2,7 @@ export default {
   name: 'main',
   title: 'Landing Main',
   type: 'document',
+  __experimental_actions: ['update', 'publish'],
   preview: {
     select: {
       title: 'title.ru',

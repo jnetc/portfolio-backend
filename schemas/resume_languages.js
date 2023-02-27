@@ -2,6 +2,7 @@ export default {
   name: 'resume_languages',
   title: 'Resume Languages',
   type: 'document',
+  __experimental_actions: ['update', 'publish'],
   preview: {
     select: {
       title: 'title.ru',

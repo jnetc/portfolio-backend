@@ -2,6 +2,7 @@ export default {
   name: 'resume_profile',
   title: 'Resume Profile',
   type: 'document',
+  __experimental_actions: ['update', 'publish'],
   preview: {
     select: {
       title: 'name.ru',

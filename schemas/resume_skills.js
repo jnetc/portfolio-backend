@@ -2,6 +2,7 @@ export default {
   name: 'resume_skills',
   title: 'Resume Skills',
   type: 'document',
+  __experimental_actions: ['update', 'publish'],
   preview: {
     select: {
       title: 'title.ru',

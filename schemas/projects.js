@@ -2,6 +2,7 @@ export default {
   name: 'projects',
   title: 'Landing Projects',
   type: 'document',
+  __experimental_actions: ['update', 'publish'],
   initialValue: {
     recent: true,
     label_recent: {
