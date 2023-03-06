@@ -9,9 +9,8 @@ import resume_interests from './resume_interests';
 import resume_languages from './resume_languages';
 import resume_skills from './resume_skills';
 import resume_notice from './resume_notice';
-// Then we give our schema to the builder and provide the result to Sanity
-export default [
-  /* Your types here! */
+
+export const schemaTypes = [
   main,
   projects,
   skills,

@@ -1,9 +1,10 @@
-export default {
+import { defineField, defineType } from 'sanity';
+
+export default defineType({
   name: 'projects',
   title: 'Landing Projects',
   type: 'document',
-  __experimental_actions: ['update', 'publish'],
-  initialValue: {
+  initialValue: () => ({
     recent: true,
     label_recent: {
       en: 'recent project',
@@ -15,22 +16,20 @@ export default {
       ru: 'имя проекта',
       fi: 'projekti nimi',
     },
-  },
+  }),
   preview: {
     select: {
       title: 'project_title',
     },
   },
   fields: [
-    {
+    defineField({
       name: 'recent',
       title: 'Недавний проект',
       type: 'boolean',
-      options: {
-        hotspot: true,
-      },
-    },
-    {
+      initialValue: false,
+    }),
+    defineField({
       name: 'poster',
       title: 'Постер',
       type: 'image',
@@ -38,8 +37,8 @@ export default {
       options: {
         hotspot: true,
       },
-    },
-    {
+    }),
+    defineField({
       name: 'label_recent',
       title: 'Ярлычок',
       description: 'ярлык над названием проекта',
@@ -50,101 +49,68 @@ export default {
           name: 'en',
           title: 'English',
           type: 'string',
-          required: true,
         },
         {
           name: 'ru',
           title: 'Русский',
           type: 'string',
-          required: true,
         },
         {
           name: 'fi',
           title: 'Suomi',
           type: 'string',
-          required: true,
         },
       ],
-    },
-    {
+    }),
+    defineField({
       name: 'label',
       title: 'Ярлычок',
       description: 'ярлык над названием проекта',
       type: 'object',
-      hidden: ({ document }) => document?.recent,
+      hidden: ({ document }) => !!document?.recent,
       fields: [
         {
           name: 'en',
           title: 'English',
           type: 'string',
-          required: true,
         },
         {
           name: 'ru',
           title: 'Русский',
           type: 'string',
-          required: true,
         },
         {
           name: 'fi',
           title: 'Suomi',
           type: 'string',
-          required: true,
         },
       ],
-    },
-    {
+    }),
+    defineField({
       name: 'project_completed',
       title: 'Дата завершения проекта. Пример (Aug 9, 1995)',
       description: 'Jan, Feb, Mar, Apr, May, June, July, Aug, Sept, Oct, Nov, Dec',
       type: 'string',
-      required: true,
-    },
-    {
+    }),
+    defineField({
       name: 'project_title',
       title: 'Название проекта',
       type: 'string',
-      required: true,
-    },
-    {
+    }),
+    defineField({
       name: 'description',
       title: 'Описание проекта',
       description: 'немного о том, что за проект или для чего его делал',
-      type: 'object',
-      required: true,
-      fields: [
-        {
-          name: 'en',
-          title: 'English',
-          type: 'array',
-          required: true,
-          of: [{ type: 'block' }],
-        },
-        {
-          name: 'ru',
-          title: 'Русский',
-          type: 'array',
-          required: true,
-          of: [{ type: 'block' }],
-        },
-        {
-          name: 'fi',
-          title: 'Suomi',
-          type: 'array',
-          required: true,
-          of: [{ type: 'block' }],
-        },
-      ],
-    },
-    {
+      type: 'localeArray',
+    }),
+    defineField({
       name: 'tags',
       title: 'Теги, наименования технологий',
       description: 'технологии которые были использованы в создании проекта',
       type: 'array',
       of: [{ type: 'string' }],
-      required: true,
-    },
-    {
+    }),
+    defineField({
       name: 'github_href',
       title: 'Ссылка на GitHub',
       type: 'url',
@@ -152,8 +118,8 @@ export default {
         Rule.uri({
           scheme: ['http', 'https'],
         }),
-    },
-    {
+    }),
+    defineField({
       name: 'figma_href',
       title: 'Ссылка на Figma',
       type: 'url',
@@ -161,8 +127,8 @@ export default {
         Rule.uri({
           scheme: ['http', 'https'],
         }),
-    },
-    {
+    }),
+    defineField({
       name: 'page_href',
       title: 'Ссылка на страницу проекта',
       type: 'url',
@@ -170,6 +136,6 @@ export default {
         Rule.uri({
           scheme: ['http', 'https'],
         }),
-    },
+    }),
   ],
-};
+});
