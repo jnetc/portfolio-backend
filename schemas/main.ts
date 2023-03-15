@@ -23,11 +23,11 @@ export default defineType({
     defineField({
       name: 'title',
       title: 'Заголовок сайта',
-      type: 'localeString',
+      type: 'localeArray',
     }),
     defineField({
-      name: 'slogan',
-      title: 'Слоган',
+      name: 'extra',
+      title: 'Дополнительно под заголовок',
       type: 'localeArray',
     }),
     defineField({
