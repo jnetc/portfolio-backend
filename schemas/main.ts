@@ -11,6 +11,42 @@ export default defineType({
   },
   fields: [
     defineField({
+      name: 'github_href',
+      title: 'ссылка на github профиль',
+      type: 'url',
+      validation: Rule =>
+        Rule.uri({
+          scheme: ['https'],
+        }),
+    }),
+    defineField({
+      name: 'stackoverflow_href',
+      title: 'ссылка на stackoverflow профиль',
+      type: 'url',
+      validation: Rule =>
+        Rule.uri({
+          scheme: ['https'],
+        }),
+    }),
+    defineField({
+      name: 'linkedin_href',
+      title: 'Ссылка на LinkedIn',
+      type: 'url',
+      validation: Rule =>
+        Rule.uri({
+          scheme: ['https'],
+        }),
+    }),
+    defineField({
+      name: 'email',
+      title: 'электронная почта',
+      type: 'url',
+      validation: Rule =>
+        Rule.uri({
+          scheme: ['mailto'],
+        }),
+    }),
+    defineField({
       name: 'meta_title',
       title: 'МЕТА title - оглавление',
       type: 'localeString',
