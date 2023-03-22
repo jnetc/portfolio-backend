@@ -39,6 +39,12 @@ export default defineType({
       },
     }),
     defineField({
+      name: 'video',
+      title: 'Видео файл',
+      type: 'file',
+      hidden: ({ document }) => !document?.recent,
+    }),
+    defineField({
       name: 'label_recent',
       title: 'Ярлычок',
       description: 'ярлык над названием проекта',
